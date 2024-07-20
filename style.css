@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    --warna-primary: #08126B;
+    --warna-secondary: #FF7009;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' , sans-serif;
+    overflow-x: hidden;
+}
+
+.button-wa{
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    text-decoration: none;
+    color:black;
+    background-color: #3b9e0d;
+    z-index: 99;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.button-wa:hover {
+    background-color: #1b5103;
+    transition: 0.3s ease-in-out;
+}
+
+.button-wa a{
+    text-decoration: none;
+}
+
+.button-wa i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px  20px;
+    color: #FFFFFF;
+
+}
+.button-wa i span{
+    font-size: 16px;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #414040;
+    }
+
+.highlight{
+    color: #FF7009;
+}
+
+
+/* Navbar */
+
+.navbar{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #08126B;
+    font-weight: 500;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #FF7009;
+    font-weight: 500;
+}
+
+.navbar .navbar-brand{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.warna-primary{
+    color: #08126B;
+}
+
+.warna-secondary{
+    color: #FF7009;
+}
+
+
+/* Akhir Navbar  */
+
+/* Hero Section */
+
+.hero h5{
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+.hero p{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.button-primary{
+    background-color: transparent;
+    border: 0.2px solid #08126B;
+    padding: 12px 36px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.button-secondary{
+    background-color: #FF7009;
+    padding: 12px 36px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.button-primary:hover{
+    background-color: #08126B;
+    color: #FFFFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.button-secondary:hover{
+    background-color: transparent;
+    color: #FF7009;
+    border:  0.2px solid #FF7009;
+    transition: 0.3s ease-in;
+}
+
+/* Akhir Hero Section */
+
+/* Section Alasan */
+
+.alasan{
+    margin: 50px 0;
+}
+
+.alasan .main-content-alasan .box-content{
+    background: #ECEEFF;
+    height: 250px;
+    border-radius: 20px;
+}
+.alasan .main-content-alasan .box-content .desc-content{
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.alasan .main-content-alasan .box-content img{
+    height: 100px;
+}
+/* Akhir Section Alasan */
+
+
+/* Section Harga Paket */
+.nav-links.active{
+    padding: 10px 56px !important;
+    background-color: #08126B !important;
+    border-radius: 15px ;
+    border: none;
+    color: #FFFFFF;
+}
+.nav-links{
+    padding: 10px 56px;
+    background-color: #ECEEFF ;
+    border-radius: 15px !important;
+    color: #08126B;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.nav-links:hover{
+    background-color: #08126B ;
+    border-radius: 15px !important;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.card-paket{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+}
+
+.card-paket-nasi{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    height: 500px;
+}
+
+.slag-title-paket{
+    width: 150px;
+    height: 40px;
+    background-color: #08126B;
+    border-radius: 0px 0px 50px 50px;
+}
+.slag-title-paket h5{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.desc-paket p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.desc-paket p img{
+    height: 20px;
+}
+
+.desc-paket h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #08126B;
+
+}
+
+/* Akhir Section Harga Paket */
+
+
+/* benefit */
+.benefit .title h1, .title .subtitle-benefit {
+    color: #FFFFFF;
+}
+.benefit .subtitle-benefit {
+    color: #FFFFFF;
+    font-weight: 400 !important;
+}
+
+.benefit .box-content-benefit{
+    background-color: #FFFFFF;
+    color: #414040 ;
+    border-radius: 10px;
+   
+}
+
+.benefit .box-content-benefit h5{
+    font-weight: 600;
+}
+
+.benefit .box-content .main-content img{
+    height: 20px;
+}
+/* akhir benefit */
+
+/* testimoni */
+.testimoni .card-testimoni{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    /* height: 500px; */
+}
+
+.testimoni .card-testimoni .desc-testimoni{
+   border-radius: 10px;
+    border: 2px solid #08126B;
+    background-color: #ECEEFF;
+}
+
+.testimoni .desc-testimoni .isi-desc p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.testimoni .desc-testimoni .isi-desc h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #08126B;
+}
+.testimoni .desc-testimoni .isi-desc span{
+    font-size: 12px;
+}
+/* Akhir testimoni */
+
+
+/* page Artikel */
+
+.card-artikel{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+}
+
+/* .card-artikel-nasi{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    height: 500px;
+} */
+
+.slag-title-artikel{
+    width: 150px;
+    height: 40px;
+    background-color: #08126B;
+    border-radius: 0px 0px 50px 50px;
+}
+.slag-title-artikel h5{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.desc-artikel p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.desc-artikel p img{
+    height: 20px;
+}
+
+.desc-artikel h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #08126B;
+
+}
+
+.card-artikel .desc-artikel span{
+    font-size: 12px;
+    color: grey;
+}
+
+/* akhir page Artikel */
+
+/* page tentang kami */
+
+.tentang-kami .keluhan p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* akhir page tentang kami */
+
+/* footer */
+
+footer .logo-usaha span{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;    
+}
+
+footer .desc-usaha p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+footer .list-layanan{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+footer .title-list-footer{
+    font-size: 16px;
+    color: var(--warna-secondary);
+    font-weight: 600;
+}
+
+footer .sosial-media img{
+    height: 20px;
+}
+
+footer .copyright span{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer .copyright img{
+  height: 15px;
+}
+/* Akhir footer */
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .hero{
+        
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center;
+        height: 80vh !important;
+        background-size: cover !important;
+        background-position: center;
+        padding: 20px;
+    }
+    .hero p{
+     font-size: 30px;
+     line-height: 50px;
+     margin-bottom: 20px !important;
+    }
+
+}
+
+/* akhir Responsive */
